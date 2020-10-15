@@ -9,3 +9,13 @@ int Calculator::Sub (double a, double b)
 {
 	return Add (a, -b);
 }
+
+int Calculator::Pow (double a, double b)
+{
+       return Pow(a, b);
+}
+
+int Calculator::log (double a, double b)
+{
+       return log(b) / log(a);
+}
