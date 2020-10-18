@@ -15,7 +15,7 @@ int Calculator::Pow (double a, double b)
        return Pow(a, b);
 }
 
-int Calculator::log (double a, double b)
+int Calculator::Log (double a, double b)
 {
        return log(b) / log(a);
 }
